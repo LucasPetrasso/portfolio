@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ==================== RESPONSIVIDADE ==================== */
 
 @media (max-width: 991px) {
@@ -142,4 +143,150 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+=======
+/* ==================== RESPONSIVIDADE ==================== */
+
+@media (max-width: 991px) {
+    :root {
+        --section-padding: 80px;
+    }
+
+    .nav-menu {
+        gap: 25px;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr 0.8fr;
+        gap: 40px;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.5rem, 6vw, 4rem);
+    }
+
+    .technology-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --section-padding: 70px;
+    }
+
+    .container,
+    .navbar {
+        width: min(100% - 30px, var(--container-width));
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 75px;
+        left: 0;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        width: 100%;
+        padding: 25px 20px;
+        border-bottom: 1px solid var(--border);
+        background-color: var(--background-secondary);
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 130px 0 70px;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .hero-text {
+        order: 2;
+    }
+
+    .hero-image {
+        order: 1;
+        width: min(100%, 350px);
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-featured {
+        grid-column: auto;
+    }
+
+    .project-featured .project-image {
+        height: 260px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .technology-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-content {
+        padding: 25px 20px;
+    }
+
+    .project-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contact-form .button {
+        align-self: stretch;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+>>>>>>> 760909e67f373fbbabbe63989ccfb431287a92dc
 }

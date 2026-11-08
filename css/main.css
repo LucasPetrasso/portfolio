@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Fundamentos */
 
 @import url("reset.css");
@@ -16,4 +17,24 @@
 
 /* Responsividade */
 
+=======
+/* Fundamentos */
+
+@import url("reset.css");
+@import url("variables.css");
+@import url("base.css");
+
+/* Componentes */
+
+@import url("./components/header.css");
+@import url("./components/hero.css");
+@import url("./components/footer.css");
+
+/* Layout */
+
+@import url("layout.css");
+
+/* Responsividade */
+
+>>>>>>> 760909e67f373fbbabbe63989ccfb431287a92dc
 @import url("responsive.css");
