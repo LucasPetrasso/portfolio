@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* ==================== GERAL ==================== */
 
 .container {
@@ -35,42 +34,4 @@
 .section-heading > p:last-child {
     color: var(--text-secondary);
     font-size: 1rem;
-=======
-/* ==================== GERAL ==================== */
-
-.container {
-    width: min(100% - 40px, var(--container-width));
-    margin-inline: auto;
-}
-
-.section {
-    padding: var(--section-padding) 0;
-}
-
-.section-heading {
-    max-width: 700px;
-    margin-bottom: 55px;
-}
-
-.section-label {
-    margin-bottom: 10px;
-    color: var(--accent);
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
-
-.section-heading h2 {
-    margin-bottom: 15px;
-    color: var(--text-primary);
-    font-family: "Space Grotesk", sans-serif;
-    font-size: clamp(2rem, 4vw, 3rem);
-    line-height: 1.1;
-}
-
-.section-heading > p:last-child {
-    color: var(--text-secondary);
-    font-size: 1rem;
->>>>>>> 760909e67f373fbbabbe63989ccfb431287a92dc
 }
